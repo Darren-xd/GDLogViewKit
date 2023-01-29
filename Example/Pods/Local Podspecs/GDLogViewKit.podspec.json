@@ -1,8 +1,8 @@
 {
   "name": "GDLogViewKit",
   "version": "0.1.0",
-  "summary": "A short description of GDLogViewKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Custom remote log viewing library.",
+  "description": "Custom remote log viewing library GDLogViewKit.",
   "homepage": "https://github.com/Darren/GDLogViewKit",
   "license": {
     "type": "MIT",
@@ -19,5 +19,7 @@
     "ios": "12.0"
   },
   "source_files": "GDLogViewKit/Classes/**/*",
-  "vendored_libraries": "GDLogViewKit/Classes/*.a"
+  "ios": {
+    "vendored_libraries": "GDLogViewKit/Classes/**/*.a"
+  }
 }

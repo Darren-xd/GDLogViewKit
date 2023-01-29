@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GDLogViewKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GDLogViewKit.'
+  s.summary          = 'Custom remote log viewing library.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Custom remote log viewing library GDLogViewKit.
                        DESC
 
-  s.homepage         = 'https://github.com/Darren/GDLogViewKit'
+  s.homepage         = 'https://github.com/Darren-xd/GDLogViewKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Darren' => '874111575@qq.com' }
@@ -32,7 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'GDLogViewKit/Classes/**/*'
   
-  s.vendored_libraries = "GDLogViewKit/Classes/*.a"
+  s.ios.vendored_libraries = "GDLogViewKit/Classes/**/*.a"
+  
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
   
   # s.resource_bundles = {
   #   'GDLogViewKit' => ['GDLogViewKit/Assets/*.png']
