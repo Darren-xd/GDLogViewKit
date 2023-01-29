@@ -1,0 +1,16 @@
+PODS:
+  - GDLogViewKit (0.1.0)
+
+DEPENDENCIES:
+  - GDLogViewKit (from `../`)
+
+EXTERNAL SOURCES:
+  GDLogViewKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GDLogViewKit: 2a0d6dee76f031a4e9c0c326dd216609ca342e02
+
+PODFILE CHECKSUM: b01ce60b03c7e906218e1782b28911ce99acbbd6
+
+COCOAPODS: 1.11.3

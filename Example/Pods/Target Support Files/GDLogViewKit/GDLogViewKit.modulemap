@@ -1,0 +1,6 @@
+framework module GDLogViewKit {
+  umbrella header "GDLogViewKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

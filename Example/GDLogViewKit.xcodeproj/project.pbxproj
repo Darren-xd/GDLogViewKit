@@ -61,11 +61,15 @@
 		868A9BF23558C2E701565A8B /* Pods-GDLogViewKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDLogViewKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-GDLogViewKit_Tests/Pods-GDLogViewKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C5068C85705D3987446B12C /* Pods_GDLogViewKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDLogViewKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9042142543351B879264CE64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9042142543351B879264CE64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		95E9D43029861FA900BC8676 /* libgaoding_log_view_kit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgaoding_log_view_kit.a; sourceTree = "<group>"; };
+		95E9D43129861FA900BC8676 /* GDLogViewKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDLogViewKit.h; sourceTree = "<group>"; };
+		95E9D43229861FA900BC8676 /* api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		95E9D43329861FA900BC8676 /* GDLogViewKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDLogViewKit.m; sourceTree = "<group>"; };
 		A401C4110AFAB3240B2FE7D0 /* Pods-GDLogViewKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDLogViewKit_Example.release.xcconfig"; path = "Target Support Files/Pods-GDLogViewKit_Example/Pods-GDLogViewKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D6B468C844B5135ADF0FC2B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D6B468C844B5135ADF0FC2B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D90AB9EAB7EB2977E506FEEA /* Pods_GDLogViewKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDLogViewKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7CC13AA09311FEE6E9B5ED2 /* GDLogViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GDLogViewKit.podspec; path = ../GDLogViewKit.podspec; sourceTree = "<group>"; };
+		F7CC13AA09311FEE6E9B5ED2 /* GDLogViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GDLogViewKit.podspec; path = ../GDLogViewKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FECA705197899BF4444FCB81 /* Pods-GDLogViewKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDLogViewKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GDLogViewKit_Tests/Pods-GDLogViewKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +136,7 @@
 		6003F593195388D20070C39A /* Example for GDLogViewKit */ = {
 			isa = PBXGroup;
 			children = (
+				95E9D42729861F7200BC8676 /* GDLogViewKit */,
 				6003F59C195388D20070C39A /* XDAppDelegate.h */,
 				6003F59D195388D20070C39A /* XDAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -185,6 +190,34 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		95E9D42729861F7200BC8676 /* GDLogViewKit */ = {
+			isa = PBXGroup;
+			children = (
+				95E9D42829861F7200BC8676 /* Classes */,
+				95E9D42B29861F7200BC8676 /* Assets */,
+			);
+			name = GDLogViewKit;
+			path = ../../GDLogViewKit;
+			sourceTree = "<group>";
+		};
+		95E9D42829861F7200BC8676 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95E9D43229861FA900BC8676 /* api.h */,
+				95E9D43129861FA900BC8676 /* GDLogViewKit.h */,
+				95E9D43329861FA900BC8676 /* GDLogViewKit.m */,
+				95E9D43029861FA900BC8676 /* libgaoding_log_view_kit.a */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		95E9D42B29861F7200BC8676 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		A12D952090118EDF96A23813 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +226,6 @@
 				FECA705197899BF4444FCB81 /* Pods-GDLogViewKit_Tests.debug.xcconfig */,
 				868A9BF23558C2E701565A8B /* Pods-GDLogViewKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +280,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Darren;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4CA5EU4K6J;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +293,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +530,7 @@
 			baseConfigurationReference = 21C8C1589A354B281DEC5E26 /* Pods-GDLogViewKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4CA5EU4K6J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GDLogViewKit/GDLogViewKit-Prefix.pch";
 				INFOPLIST_FILE = "GDLogViewKit/GDLogViewKit-Info.plist";
@@ -510,6 +547,7 @@
 			baseConfigurationReference = A401C4110AFAB3240B2FE7D0 /* Pods-GDLogViewKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4CA5EU4K6J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GDLogViewKit/GDLogViewKit-Prefix.pch";
 				INFOPLIST_FILE = "GDLogViewKit/GDLogViewKit-Info.plist";

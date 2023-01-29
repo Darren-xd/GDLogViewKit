@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C879A5689116ADC1E691FF5DF90F7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		056B5AD6A247D8AAFBCAF885EAE4BA3C /* Pods-GDLogViewKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF929FD91E013384B02D438930F674C /* Pods-GDLogViewKit_Example-dummy.m */; };
+		200850BCAC5678A01EC3A23BA9E81346 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3A9E016190EFC760B0BBDA7AFC657F0E /* Pods-GDLogViewKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F27BB0D618E59616502B01977F0A80 /* Pods-GDLogViewKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CC91A6857B9EE934F101C3F4E7A714D /* GDLogViewKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 555BFDC9F421839AFD74FC938CC4145E /* GDLogViewKit.m */; };
+		615ECF0377FA1438E9C1917C128A44F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77E1BB9BF6B2084A56F273D78C57D058 /* api.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFE61E38828D5198CBEA26C4BAFF3E6 /* api.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6F3574577551658D8D740DAB9870C8B /* GDLogViewKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C147D114C4ABAA465B48A04BBE6145 /* GDLogViewKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AED98F55EF6796FD1CDCC5C1467F4E72 /* GDLogViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E8BB6071B665A3F111A2277D52EEEF /* GDLogViewKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B094F718131DB5874C37866726A7727E /* Pods-GDLogViewKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B8B2E4074CBEE5B237712E011744D1 /* Pods-GDLogViewKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C96E88E9AC9ED61BA2F2C8DD355E8C35 /* libgaoding_log_view_kit.a in Sources */ = {isa = PBXBuildFile; fileRef = 8F00568AFB6A25279946C5C7B74BD7FF /* libgaoding_log_view_kit.a */; };
+		CF1511BEE1BC63CD222E6C0CB53AC412 /* Pods-GDLogViewKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D2C64A90BADA3336BBA1B7FFDA8E64 /* Pods-GDLogViewKit_Tests-dummy.m */; };
+		ED06F50CE4EC204656DFCD54B81F2538 /* GDLogViewKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C6B05B3A3B3F4D80B03AD8911E072D /* GDLogViewKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1038B4D0A6E77F090B3511376CC16B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8894AD1FA0B5E2E6EE0392513C5F236;
+			remoteInfo = GDLogViewKit;
+		};
+		49CE97F0535DEE9243053DC2257F1CA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B1941B54A2D0DF0D1D3D6AAF46A8BDF;
+			remoteInfo = "Pods-GDLogViewKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		069C2CC3045223A6C0F293B3B200BF90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		14B8B2E4074CBEE5B237712E011744D1 /* Pods-GDLogViewKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GDLogViewKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		1DE29D098AED34159A7C0E32124E2CCD /* Pods-GDLogViewKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GDLogViewKit_Example.modulemap"; sourceTree = "<group>"; };
+		28E54154437F4636FAACDC0C3D4FD601 /* Pods-GDLogViewKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GDLogViewKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		31964E9071B68BA73A063F6A76F43958 /* GDLogViewKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDLogViewKit-prefix.pch"; sourceTree = "<group>"; };
+		36D2C64A90BADA3336BBA1B7FFDA8E64 /* Pods-GDLogViewKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GDLogViewKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		44F7185CA5C09D7CD0170B72C024BDB7 /* Pods-GDLogViewKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GDLogViewKit_Tests"; path = Pods_GDLogViewKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AFE61E38828D5198CBEA26C4BAFF3E6 /* api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = api.h; path = GDLogViewKit/Classes/api.h; sourceTree = "<group>"; };
+		555BFDC9F421839AFD74FC938CC4145E /* GDLogViewKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDLogViewKit.m; path = GDLogViewKit/Classes/GDLogViewKit.m; sourceTree = "<group>"; };
+		6B872A8BAF68CCC83EC126D18C457D2C /* Pods-GDLogViewKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDLogViewKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6E7E9FF94BBD8495E18D71C9B7A8F359 /* Pods-GDLogViewKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GDLogViewKit_Example-Info.plist"; sourceTree = "<group>"; };
+		715CB8C89688E8D56A63B3A1F04FC269 /* GDLogViewKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GDLogViewKit.modulemap; sourceTree = "<group>"; };
+		72C147D114C4ABAA465B48A04BBE6145 /* GDLogViewKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDLogViewKit-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BAB4FACFBE37052D04E8947D9CEEFC8 /* Pods-GDLogViewKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GDLogViewKit_Example"; path = Pods_GDLogViewKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6A27B05A36DF23B7B6AD2FF78960CF /* Pods-GDLogViewKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GDLogViewKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86D5AC5BF1B7AD462CBF3527574CEF73 /* Pods-GDLogViewKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDLogViewKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		89C6B05B3A3B3F4D80B03AD8911E072D /* GDLogViewKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GDLogViewKit-dummy.m"; sourceTree = "<group>"; };
+		8B419BBD6D9E61ADE669FA10CCC3827B /* Pods-GDLogViewKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GDLogViewKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F00568AFB6A25279946C5C7B74BD7FF /* libgaoding_log_view_kit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libgaoding_log_view_kit.a; path = GDLogViewKit/Classes/libgaoding_log_view_kit.a; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF78342545109ED5767C8EA9588A946 /* Pods-GDLogViewKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GDLogViewKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC87068FC37294A68FDFAA53A1BF3016 /* Pods-GDLogViewKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GDLogViewKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACB09D251A80B39B6CE646A4E6803539 /* GDLogViewKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDLogViewKit.release.xcconfig; sourceTree = "<group>"; };
+		BBAAA1B98FCBC37C467AEA78DE5F0F8C /* GDLogViewKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GDLogViewKit; path = GDLogViewKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF929FD91E013384B02D438930F674C /* Pods-GDLogViewKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GDLogViewKit_Example-dummy.m"; sourceTree = "<group>"; };
+		C9E8BB6071B665A3F111A2277D52EEEF /* GDLogViewKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDLogViewKit.h; path = GDLogViewKit/Classes/GDLogViewKit.h; sourceTree = "<group>"; };
+		D4F27BB0D618E59616502B01977F0A80 /* Pods-GDLogViewKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GDLogViewKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D52E503169AB88E7B592E25B0A6AB000 /* Pods-GDLogViewKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GDLogViewKit_Tests.modulemap"; sourceTree = "<group>"; };
+		D66D6E0E6A8D003B785E5FEE802E0EA4 /* GDLogViewKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDLogViewKit.debug.xcconfig; sourceTree = "<group>"; };
+		D69251FCCA7A659AB2D387637717EB11 /* Pods-GDLogViewKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GDLogViewKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DB34493BB5D9686C1FB92D84A74751DE /* Pods-GDLogViewKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDLogViewKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2D28A1C418E216AA34B86A996F6CA3 /* GDLogViewKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GDLogViewKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E84E400CB883CFB3BE3029AA4E45F1F9 /* Pods-GDLogViewKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDLogViewKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EAAC48D31DC5BCB7A12B96ADAEFE43E2 /* GDLogViewKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GDLogViewKit-Info.plist"; sourceTree = "<group>"; };
+		EB7591CEBDE1324129143E7D84516D9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C969D97824096D32D7DE5C524D2FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200850BCAC5678A01EC3A23BA9E81346 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560C07BCFF9477ECF79A225CA4521C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615ECF0377FA1438E9C1917C128A44F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FC3F921BFE11E3B669C2EE3B4274F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C879A5689116ADC1E691FF5DF90F7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EB5167CD1C8FB1218534527B9D393C0 /* Pods-GDLogViewKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1DE29D098AED34159A7C0E32124E2CCD /* Pods-GDLogViewKit_Example.modulemap */,
+				7E6A27B05A36DF23B7B6AD2FF78960CF /* Pods-GDLogViewKit_Example-acknowledgements.markdown */,
+				9EF78342545109ED5767C8EA9588A946 /* Pods-GDLogViewKit_Example-acknowledgements.plist */,
+				BEF929FD91E013384B02D438930F674C /* Pods-GDLogViewKit_Example-dummy.m */,
+				D69251FCCA7A659AB2D387637717EB11 /* Pods-GDLogViewKit_Example-frameworks.sh */,
+				6E7E9FF94BBD8495E18D71C9B7A8F359 /* Pods-GDLogViewKit_Example-Info.plist */,
+				14B8B2E4074CBEE5B237712E011744D1 /* Pods-GDLogViewKit_Example-umbrella.h */,
+				DB34493BB5D9686C1FB92D84A74751DE /* Pods-GDLogViewKit_Example.debug.xcconfig */,
+				6B872A8BAF68CCC83EC126D18C457D2C /* Pods-GDLogViewKit_Example.release.xcconfig */,
+			);
+			name = "Pods-GDLogViewKit_Example";
+			path = "Target Support Files/Pods-GDLogViewKit_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A1C4241040B622F56C2897C7B2EA0CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65599ACD101B0447061CC13E95B4E044 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				679F39D7E8418601B8F367CF65BB627D /* GDLogViewKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		679F39D7E8418601B8F367CF65BB627D /* GDLogViewKit */ = {
+			isa = PBXGroup;
+			children = (
+				4AFE61E38828D5198CBEA26C4BAFF3E6 /* api.h */,
+				C9E8BB6071B665A3F111A2277D52EEEF /* GDLogViewKit.h */,
+				555BFDC9F421839AFD74FC938CC4145E /* GDLogViewKit.m */,
+				8F00568AFB6A25279946C5C7B74BD7FF /* libgaoding_log_view_kit.a */,
+				5A1C4241040B622F56C2897C7B2EA0CA /* Frameworks */,
+				7F8268DAE0E26536EA6323BC973DCE54 /* Pod */,
+				DD848D612E37719CAD4FFABE34244DCC /* Support Files */,
+			);
+			name = GDLogViewKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7F8268DAE0E26536EA6323BC973DCE54 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D28A1C418E216AA34B86A996F6CA3 /* GDLogViewKit.podspec */,
+				EB7591CEBDE1324129143E7D84516D9A /* LICENSE */,
+				069C2CC3045223A6C0F293B3B200BF90 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CDE20776C201CD5D3B22F2E45B431443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBAAA1B98FCBC37C467AEA78DE5F0F8C /* GDLogViewKit */,
+				7BAB4FACFBE37052D04E8947D9CEEFC8 /* Pods-GDLogViewKit_Example */,
+				44F7185CA5C09D7CD0170B72C024BDB7 /* Pods-GDLogViewKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				65599ACD101B0447061CC13E95B4E044 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CDE20776C201CD5D3B22F2E45B431443 /* Products */,
+				D3829394E956DB121C24B8FD99E034E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3829394E956DB121C24B8FD99E034E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EB5167CD1C8FB1218534527B9D393C0 /* Pods-GDLogViewKit_Example */,
+				E7518A62F33E5DE1ED7A4EDA9E492008 /* Pods-GDLogViewKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DD848D612E37719CAD4FFABE34244DCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				715CB8C89688E8D56A63B3A1F04FC269 /* GDLogViewKit.modulemap */,
+				89C6B05B3A3B3F4D80B03AD8911E072D /* GDLogViewKit-dummy.m */,
+				EAAC48D31DC5BCB7A12B96ADAEFE43E2 /* GDLogViewKit-Info.plist */,
+				31964E9071B68BA73A063F6A76F43958 /* GDLogViewKit-prefix.pch */,
+				72C147D114C4ABAA465B48A04BBE6145 /* GDLogViewKit-umbrella.h */,
+				D66D6E0E6A8D003B785E5FEE802E0EA4 /* GDLogViewKit.debug.xcconfig */,
+				ACB09D251A80B39B6CE646A4E6803539 /* GDLogViewKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GDLogViewKit";
+			sourceTree = "<group>";
+		};
+		E7518A62F33E5DE1ED7A4EDA9E492008 /* Pods-GDLogViewKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D52E503169AB88E7B592E25B0A6AB000 /* Pods-GDLogViewKit_Tests.modulemap */,
+				AC87068FC37294A68FDFAA53A1BF3016 /* Pods-GDLogViewKit_Tests-acknowledgements.markdown */,
+				8B419BBD6D9E61ADE669FA10CCC3827B /* Pods-GDLogViewKit_Tests-acknowledgements.plist */,
+				36D2C64A90BADA3336BBA1B7FFDA8E64 /* Pods-GDLogViewKit_Tests-dummy.m */,
+				28E54154437F4636FAACDC0C3D4FD601 /* Pods-GDLogViewKit_Tests-Info.plist */,
+				D4F27BB0D618E59616502B01977F0A80 /* Pods-GDLogViewKit_Tests-umbrella.h */,
+				86D5AC5BF1B7AD462CBF3527574CEF73 /* Pods-GDLogViewKit_Tests.debug.xcconfig */,
+				E84E400CB883CFB3BE3029AA4E45F1F9 /* Pods-GDLogViewKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-GDLogViewKit_Tests";
+			path = "Target Support Files/Pods-GDLogViewKit_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		459F12A849F5E6A3627AC21BFD1558D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9E016190EFC760B0BBDA7AFC657F0E /* Pods-GDLogViewKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DFD770B5338049CAB0B444531C93D19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E1BB9BF6B2084A56F273D78C57D058 /* api.h in Headers */,
+				AED98F55EF6796FD1CDCC5C1467F4E72 /* GDLogViewKit.h in Headers */,
+				A6F3574577551658D8D740DAB9870C8B /* GDLogViewKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC3BF5C1B9951525D38B4E3B2BABC8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B094F718131DB5874C37866726A7727E /* Pods-GDLogViewKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BB9A969704467FE3AEC1BCC3A68E03B /* Pods-GDLogViewKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AB4099A7D8E37785038EEA2DBBD218 /* Build configuration list for PBXNativeTarget "Pods-GDLogViewKit_Tests" */;
+			buildPhases = (
+				459F12A849F5E6A3627AC21BFD1558D5 /* Headers */,
+				387740DDFC3CE7073209CD5AC08B6ACD /* Sources */,
+				B0FC3F921BFE11E3B669C2EE3B4274F3 /* Frameworks */,
+				F365BF247BF2802E1E7F9BB1C1A1DB1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				858F750EBA05C4495E3D800C5928560C /* PBXTargetDependency */,
+			);
+			name = "Pods-GDLogViewKit_Tests";
+			productName = Pods_GDLogViewKit_Tests;
+			productReference = 44F7185CA5C09D7CD0170B72C024BDB7 /* Pods-GDLogViewKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B1941B54A2D0DF0D1D3D6AAF46A8BDF /* Pods-GDLogViewKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A789F9ACB2DB8F007B8707077C12B9E9 /* Build configuration list for PBXNativeTarget "Pods-GDLogViewKit_Example" */;
+			buildPhases = (
+				DEC3BF5C1B9951525D38B4E3B2BABC8D /* Headers */,
+				81CFC56CB6A845B74BC6850C5E1A0277 /* Sources */,
+				48C969D97824096D32D7DE5C524D2FEB /* Frameworks */,
+				D40B375E65D4017CD09D498DED004A3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10CB2DF18C2E64F946E63ED396043222 /* PBXTargetDependency */,
+			);
+			name = "Pods-GDLogViewKit_Example";
+			productName = Pods_GDLogViewKit_Example;
+			productReference = 7BAB4FACFBE37052D04E8947D9CEEFC8 /* Pods-GDLogViewKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8894AD1FA0B5E2E6EE0392513C5F236 /* GDLogViewKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C239F58849FE7234B147FA9D43791F56 /* Build configuration list for PBXNativeTarget "GDLogViewKit" */;
+			buildPhases = (
+				6DFD770B5338049CAB0B444531C93D19 /* Headers */,
+				0688CDD117623519A644C9FCD799BC0E /* Sources */,
+				560C07BCFF9477ECF79A225CA4521C42 /* Frameworks */,
+				84BBE57FF687DB2E05FCF2E729BD526A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDLogViewKit;
+			productName = GDLogViewKit;
+			productReference = BBAAA1B98FCBC37C467AEA78DE5F0F8C /* GDLogViewKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CDE20776C201CD5D3B22F2E45B431443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8894AD1FA0B5E2E6EE0392513C5F236 /* GDLogViewKit */,
+				9B1941B54A2D0DF0D1D3D6AAF46A8BDF /* Pods-GDLogViewKit_Example */,
+				5BB9A969704467FE3AEC1BCC3A68E03B /* Pods-GDLogViewKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BBE57FF687DB2E05FCF2E729BD526A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40B375E65D4017CD09D498DED004A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F365BF247BF2802E1E7F9BB1C1A1DB1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0688CDD117623519A644C9FCD799BC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC91A6857B9EE934F101C3F4E7A714D /* GDLogViewKit.m in Sources */,
+				ED06F50CE4EC204656DFCD54B81F2538 /* GDLogViewKit-dummy.m in Sources */,
+				C96E88E9AC9ED61BA2F2C8DD355E8C35 /* libgaoding_log_view_kit.a in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387740DDFC3CE7073209CD5AC08B6ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1511BEE1BC63CD222E6C0CB53AC412 /* Pods-GDLogViewKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CFC56CB6A845B74BC6850C5E1A0277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056B5AD6A247D8AAFBCAF885EAE4BA3C /* Pods-GDLogViewKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10CB2DF18C2E64F946E63ED396043222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GDLogViewKit;
+			target = D8894AD1FA0B5E2E6EE0392513C5F236 /* GDLogViewKit */;
+			targetProxy = 1038B4D0A6E77F090B3511376CC16B71 /* PBXContainerItemProxy */;
+		};
+		858F750EBA05C4495E3D800C5928560C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GDLogViewKit_Example";
+			target = 9B1941B54A2D0DF0D1D3D6AAF46A8BDF /* Pods-GDLogViewKit_Example */;
+			targetProxy = 49CE97F0535DEE9243053DC2257F1CA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15931423A1AAB8B40B3939D5C2D8188E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84E400CB883CFB3BE3029AA4E45F1F9 /* Pods-GDLogViewKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GDLogViewKit_Tests/Pods-GDLogViewKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GDLogViewKit_Tests/Pods-GDLogViewKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		288A40DE191DBACA0AD0A77721A965E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B872A8BAF68CCC83EC126D18C457D2C /* Pods-GDLogViewKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GDLogViewKit_Example/Pods-GDLogViewKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GDLogViewKit_Example/Pods-GDLogViewKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30A2FED11BC34D72736510530842DD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB09D251A80B39B6CE646A4E6803539 /* GDLogViewKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GDLogViewKit/GDLogViewKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GDLogViewKit/GDLogViewKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GDLogViewKit/GDLogViewKit.modulemap";
+				PRODUCT_MODULE_NAME = GDLogViewKit;
+				PRODUCT_NAME = GDLogViewKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6513250FC65D18F2AC16FE32D981D2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D5AC5BF1B7AD462CBF3527574CEF73 /* Pods-GDLogViewKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GDLogViewKit_Tests/Pods-GDLogViewKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GDLogViewKit_Tests/Pods-GDLogViewKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9358A336CBDE2A172823A71C9625726B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB34493BB5D9686C1FB92D84A74751DE /* Pods-GDLogViewKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GDLogViewKit_Example/Pods-GDLogViewKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GDLogViewKit_Example/Pods-GDLogViewKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97FEE9B0DAFB2BEC74270A62F19BB247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66D6E0E6A8D003B785E5FEE802E0EA4 /* GDLogViewKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GDLogViewKit/GDLogViewKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GDLogViewKit/GDLogViewKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GDLogViewKit/GDLogViewKit.modulemap";
+				PRODUCT_MODULE_NAME = GDLogViewKit;
+				PRODUCT_NAME = GDLogViewKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AB4099A7D8E37785038EEA2DBBD218 /* Build configuration list for PBXNativeTarget "Pods-GDLogViewKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6513250FC65D18F2AC16FE32D981D2CE /* Debug */,
+				15931423A1AAB8B40B3939D5C2D8188E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A789F9ACB2DB8F007B8707077C12B9E9 /* Build configuration list for PBXNativeTarget "Pods-GDLogViewKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9358A336CBDE2A172823A71C9625726B /* Debug */,
+				288A40DE191DBACA0AD0A77721A965E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C239F58849FE7234B147FA9D43791F56 /* Build configuration list for PBXNativeTarget "GDLogViewKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97FEE9B0DAFB2BEC74270A62F19BB247 /* Debug */,
+				30A2FED11BC34D72736510530842DD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
