@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GDLogViewKit_Example' do
+  pod 'GDLogViewKit', :path => '../'
+
+  target 'GDLogViewKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
